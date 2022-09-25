@@ -22,6 +22,20 @@
         },
         {
           "type": "item",
+          "name": "minecraft:arrows",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "name": "minecraft:steak",
           "weight": 10,
           "functions": [
