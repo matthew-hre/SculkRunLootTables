@@ -22,7 +22,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:arrows",
+          "name": "minecraft:arrow",
           "weight": 5,
           "functions": [
             {
@@ -36,7 +36,29 @@
         },
         {
           "type": "item",
-          "name": "minecraft:steak",
+          "name": "minecraft:bow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "wack stick"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cooked_beef",
           "weight": 10,
           "functions": [
             {
